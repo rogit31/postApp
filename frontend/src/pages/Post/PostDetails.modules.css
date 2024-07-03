@@ -1,0 +1,43 @@
+.postCard{
+    box-shadow: 2px 2px 5px 5px rgb(240, 240, 240);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-bottom: 24px;
+    border-radius: 4px;
+}
+
+.postCard img{
+    border-radius: 2px;
+    max-width: 100%;
+}
+
+.postDetails{
+    margin-left:4px
+}
+
+.postDetails h1{
+    text-align: center;
+}
+.username{
+    opacity: 80%;
+    text-align: center;
+}
+.category{
+    text-transform: capitalize;
+    background-color: rgb(55, 194, 0);
+    border-radius: 4px;
+    display: inline;
+    padding: 4px;
+    color: white;
+}
+#backButton a{
+    color: white;
+}
+#editButton a {
+    color: white;
+}
+.buttonWrapper{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}

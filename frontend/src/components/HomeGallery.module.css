@@ -1,0 +1,19 @@
+.galleryContainer{
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ width: 95%;
+ margin: 0 auto;
+ gap: 2px;
+ position: relative;
+ overflow: hidden;
+}
+.galleryContainer img{
+    max-width:100%;
+    width: fit-content;
+    transition:  .5s ease;
+}
+
+.galleryContainer img:hover{
+    opacity: 90%;
+    scale: 1.01;
+}
